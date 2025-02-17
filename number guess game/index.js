@@ -1,8 +1,7 @@
 let randomNum;
 let attempts = 0;
 let maxAttempts;
-let difficulty;
-
+let difficulty;
 function startGame() {
     // Get selected difficulty
     difficulty = document.getElementById('difficulty').value;
